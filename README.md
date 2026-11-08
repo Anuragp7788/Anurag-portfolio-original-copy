@@ -1,31 +1,16 @@
-# Anurag Parkhe — Portfolio
+# React + Vite
 
-A React + Vite portfolio focused on business analytics, product thinking, financial analysis and operations.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Run locally
-```bash
-npm install
-npm run dev
-```
+Currently, two official plugins are available:
 
-## Build
-```bash
-npm run build
-npm run preview
-```
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Routes
-- `/` — Home
-- `/projects` — Project library
-- `/projects/:slug` — Case studies
-- `/dashboards` — Interactive browser-native dashboard demo
-- `/presentations` — Presentation library
-- `/presentations/:slug` — In-browser slide decks
-- `/experience` — Experience
-- `/about` — About and skills
+## React Compiler
 
-## Interactive work
-The dashboards and slide decks run inside the website. The commercial dashboard intentionally uses illustrative sample data; it is not presented as real client or company performance. Presentation decks are browser-native slide experiences, not externally hosted PowerPoint files.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Deployment
-The `public/_redirects` file configures Netlify SPA fallback for direct navigation to nested routes.
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
