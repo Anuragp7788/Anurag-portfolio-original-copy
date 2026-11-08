@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {
-  ArrowDownRight, ArrowRight, ArrowUpRight, Download, Github,
+  ArrowDownRight, ArrowUpRight, Download, Github,
   Linkedin, Mail, Menu, X, MapPin, MoveUpRight
 } from 'lucide-react';
 import profilePhoto from './assets/images/profile-photo.jpg';
